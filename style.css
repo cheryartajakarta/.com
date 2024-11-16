@@ -235,6 +235,8 @@ header.shadow #search-icon{
     text-decoration-color: #ff4d4d; /* Garis bawah berwarna merah */
     font-size: 13px; /* Ukuran teks lebih kecil */
     margin-bottom: 8px; /* Jarak bawah antar elemen */
+    font-weight: bold;
+}
 }
 
 /* Container utama untuk carousel */
