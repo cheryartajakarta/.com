@@ -201,6 +201,9 @@ header.shadow #search-icon{
     background: var(--main-color);
     color: var(--bg-color);
 }
+.cars .heading h2 {
+    margin-bottom: 20px;
+}
 
 .about-text {
     font-family: Arial, sans-serif;
