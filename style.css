@@ -201,8 +201,16 @@ header.shadow #search-icon{
     background: var(--main-color);
     color: var(--bg-color);
 }
-.cars .heading h2 {
-    margin-bottom: 20px;
+.cars .heading h2 .highlight {
+    font-size: 19px;
+    color: #000; /* Warna teks hitam */
+    text-decoration: underline; /* Garis bawah */
+    text-decoration-thickness: 3px; /* Tebalkan garis bawah */
+    text-decoration-color: #ff4d4d; /* Garis bawah berwarna merah */
+    font-weight: bold;
+    line-height: 1; /* Mengurangi tinggi baris agar teks lebih rapat */
+    position: relative; /* Memungkinkan penggunaan properti top */
+    top: -17px; /* Menggeser teks ke atas sebesar 3px */
 }
 
 .about-text {
@@ -237,8 +245,8 @@ header.shadow #search-icon{
     margin-bottom: 8px; /* Jarak bawah antar elemen */
     font-weight: bold;
 }
-}
 
+/* Container utama untuk carousel */
 /* Container utama untuk carousel */
 .poto-seleb {
     width: 80%;
@@ -258,6 +266,8 @@ header.shadow #search-icon{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 2px;
+    
 }
 
 .swiper-slide img {
@@ -266,6 +276,7 @@ header.shadow #search-icon{
     height: auto; /* Menjaga rasio gambar */
     border-radius: 10px; /* Sudut melengkung */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan */
+    
 }
 
 /* Tombol navigasi Swiper */
