@@ -153,59 +153,74 @@ header.shadow #search-icon{
 .btn:hover{
     background: #fd052f;
 }
+.heading{
+    text-align: center;
+}
+.heading span{
+    font-weight: 500;
+    color: var(--main-color);
+}
+.heading p{
+    font-size: 0.938rem;
+    font-weight: 300;
+}
 /* Impor font Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
-.heading {
+.headingg {
   font-family: 'Poppins', sans-serif; /* Gunakan font Poppins */
   text-align: center; /* Teks rata tengah */
-  padding: 30px; /* Ruang di dalam elemen */
+  padding: 20px; /* Ruang di dalam elemen */
   margin: 0 auto; /* Elemen berada di tengah */
   max-width: 700px; /* Batas lebar maksimal */
-  background-color: #f8f9fa; /* Latar belakang abu-abu terang */
-  border-radius: 12px; /* Sudut elemen membulat */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Efek bayangan */
   color: #333; /* Warna teks default */
+  background: none; /* Tidak ada warna latar belakang */
+  box-shadow: none; /* Menghapus efek bayangan */
 }
 
-.heading span {
+.headingg span {
   display: block;
-  font-size: 14px;
+  font-size: 12px; /* Ukuran teks lebih kecil */
   font-weight: 600; /* Tebal untuk teks kecil */
   color: #ff6600; /* Warna teks oranye */
-  margin-bottom: 10px;
+  margin-bottom: 8px; /* Jarak dengan elemen berikutnya */
   text-transform: uppercase; /* Huruf kapital semua */
 }
 
-.heading h2 {
-  font-size: 28px; /* Ukuran lebih besar */
-  font-weight: 700; /* Tebal */
+.headingg h2 {
+  font-size: 22px; /* Ukuran heading lebih kecil */
+  font-weight: 600; /* Sedikit lebih ringan */
   color: #222; /* Warna heading lebih gelap */
-  margin-bottom: 15px;
+  margin-bottom: 12px; /* Jarak dengan paragraf */
 }
 
-.heading p {
-  font-size: 16px;
-  line-height: 1.8; /* Jarak antar baris teks */
+.headingg p {
+  font-size: 14px; /* Ukuran teks paragraf lebih kecil */
+  line-height: 1.6; /* Jarak antar baris teks lebih pendek */
   text-align: justify; /* Teks rata kiri-kanan */
   color: #555; /* Warna teks paragraf */
-  margin-bottom: 20px; /* Jarak antar paragraf */
+  margin-bottom: 16px; /* Jarak antar paragraf */
 }
 
+.headingg p strong {
+  color: #d9534f; /* Warna merah untuk teks penting */
+}
 
-
-.heading p:last-child {
+.headingg p:last-child {
   margin-bottom: 0; /* Menghapus margin di paragraf terakhir */
 }
 
-.heading a {
+.headingg a {
+  font-size: 14px; /* Ukuran font tautan */
   color: #007bff; /* Warna biru untuk tautan */
   text-decoration: none; /* Hilangkan garis bawah */
 }
 
-.heading a:hover {
+.headingg a:hover {
   text-decoration: underline; /* Garis bawah saat hover */
 }
+
+
 
 .cars-container{
     display: flex;
